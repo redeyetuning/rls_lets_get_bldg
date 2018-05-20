@@ -41,9 +41,9 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (8.0.0)
-    autoprefixer-rails (8.4.1)
+    autoprefixer-rails (8.5.0)
       execjs
-    bcrypt (3.1.11)
+    bcrypt (3.1.12)
     bindex (0.5.0)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -112,7 +112,7 @@ GEM
       fog-xml (~> 0.1.1)
       ipaddress (~> 0.5)
       json (~> 2.0)
-    fog-aliyun (0.2.1)
+    fog-aliyun (0.2.2)
       fog-core (~> 1.27)
       fog-json (~> 1.0)
       ipaddress (~> 0.8)
@@ -220,7 +220,7 @@ GEM
     fog-voxel (0.1.0)
       fog-core
       fog-xml
-    fog-vsphere (2.1.1)
+    fog-vsphere (2.2.0)
       fog-core
       rbvmomi (~> 1.9)
     fog-xenserver (0.3.0)
@@ -397,6 +397,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.5)
     unf_ext (0.0.7.5-x86-mingw32)
+    wdm (0.1.1)
     web-console (3.5.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -413,7 +414,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bcrypt (= 3.1.11)
+  bcrypt (= 3.1.12)
   bootstrap-sass (= 3.3.7)
   bootstrap-will_paginate (= 1.0.0)
   byebug (= 9.0.6)
@@ -441,6 +442,7 @@ DEPENDENCIES
   turbolinks (= 5.0.1)
   tzinfo-data
   uglifier (= 3.2.0)
+  wdm (>= 0.1.0)
   web-console (= 3.5.1)
   will_paginate (= 3.1.6)
 

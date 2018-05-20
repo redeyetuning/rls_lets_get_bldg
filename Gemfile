@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
-
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'rails',                   '5.1.4'
-gem 'bootstrap-sass',          '3.3.7'
-gem 'bcrypt',                  '3.1.11', platforms: :ruby
+gem 'bcrypt',                  '3.1.12'#, platforms: :ruby
 gem 'faker',                   '1.7.3'
 gem 'carrierwave',             '1.2.2'
 gem 'mini_magick',             '4.7.0'
