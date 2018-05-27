@@ -9,6 +9,7 @@ class UsersController < ApplicationController
   		redirect_to user_path(@user.id)
   	else
   		render :new
+  		@user.errors.full_messages
   	end
   end
 
