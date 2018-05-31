@@ -15,7 +15,6 @@ class UsersController < ApplicationController
   		redirect_to @user
   	else
   		render :new
-  		@user.errors.full_messages
   	end
   end
 
@@ -30,6 +29,13 @@ class UsersController < ApplicationController
   end
 
   def update
+    @user = User.find_by(params[:id])
+    if @user.update_attributes(user_params)
+      flash[:success] = "Profile updated!"
+      redirect_to @user
+    else
+      render :edit
+    end
   end
 
   def delete
