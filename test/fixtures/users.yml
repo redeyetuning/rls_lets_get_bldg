@@ -1,7 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 me:
-  id: 1
   name: Samuel Masters
   email: redeyetuning@gmail.com
   password_digest: <%= User.digest('foobar') %>
