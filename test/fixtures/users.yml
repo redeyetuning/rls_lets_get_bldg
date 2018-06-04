@@ -4,3 +4,8 @@ me:
   name: Samuel Masters
   email: redeyetuning@gmail.com
   password_digest: <%= User.digest('foobar') %>
+
+archer:
+  name: Sterling Archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('foobar') %>
